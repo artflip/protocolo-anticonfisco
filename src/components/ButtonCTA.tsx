@@ -10,7 +10,7 @@ interface ButtonCTAProps {
     className?: string;
 }
 
-export default function ButtonCTA({ text, onClick, href = "https://pay.kirvano.com/b59d0db0-7cab-406a-ac52-973da1486f3a", className = "" }: ButtonCTAProps) {
+export default function ButtonCTA({ text, onClick, href = "https://pay.cakto.com.br/yaemt7b_801155", className = "" }: ButtonCTAProps) {
     const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
         if (onClick) {
             e.preventDefault();
