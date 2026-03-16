@@ -5,7 +5,7 @@ import ButtonCTA from "./ButtonCTA";
 
 export default function HeroSection() {
     return (
-        <section className="w-full flex flex-col items-center text-center mt-8">
+        <section className="w-full flex flex-col items-center text-center">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
